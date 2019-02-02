@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  mongo:
+    image: "mongo:latest"
+    ports:
+      - 27017:27107
+    network_mode: host
+  
+  zipkin:
+    image: "openzipkin/zipkin:latest"
+    ports:
+      - 9411:9411
+    network_mode: host
+
+  node:
+    build: ./NodeSample
+    ports: 
+      - 3000:3000
+    network_mode: host
