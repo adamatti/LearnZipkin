@@ -1,0 +1,25 @@
+#### Todo
+
+[frame="all",options="header"]
+|====
+|             | Node | Java | Go |
+| http client | x    | x    |    |
+| Mongo |||| 
+| Kafka ||||
+| Redis |||| 
+| Postgres ||||
+| Kafka transport ||||
+|==== 
+
+* Configure database for zipkin
+
+#### References
+
+* https://sematext.com/blog/jaeger-vs-zipkin-opentracing-distributed-tracers/
+
+#### Check
+
+OpenCensus
+jaeger
+daeper
+opentracing

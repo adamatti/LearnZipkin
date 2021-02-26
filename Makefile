@@ -6,6 +6,8 @@ build: ## build docker images
 up: build ## start full sample
 	docker-compose up -d
 
+start: up 
+
 stop: ## stop containers
 	docker-compose stop -t 0
 
