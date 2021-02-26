@@ -10,7 +10,7 @@ import (
 )
 
 func buildRequest(id string) *http.Request {
-	url := "https://swapi.co/api/people/" + id + "/"
+	url := "https://swapi.dev/api/people/" + id + "/"
 
 	/*
 		resp, err := resty.R().

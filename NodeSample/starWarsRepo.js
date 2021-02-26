@@ -3,7 +3,7 @@ const fetch = require("node-fetch"),
 ;
 
 exports.findPeople = async id => {
-    const url = `https://swapi.co/api/people/${id}/`
+    const url = `https://swapi.dev/api/people/${id}/`
     const caller = monitoring.instrumentFetch(fetch,"star-wars")
     return (await caller(url)).json()
 } 

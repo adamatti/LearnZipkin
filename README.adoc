@@ -1,3 +1,9 @@
+#### How to run
+
+* make start
+* make test
+* access http://localhost:9411
+
 #### Todo
 
 [frame="all",options="header"]
