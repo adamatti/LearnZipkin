@@ -25,7 +25,7 @@
 
 #### Check
 
-OpenCensus
-jaeger
-daeper
-opentracing
+* OpenCensus
+* jaeger
+* daeper
+* opentracing

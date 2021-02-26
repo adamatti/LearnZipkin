@@ -10,7 +10,7 @@ RUN mvn verify clean --fail-never
 COPY src ./src
 RUN mvn package
 
-##############################################33
+##############################################
 FROM fabric8/java-centos-openjdk8-jre:latest as runner
 
 USER root
